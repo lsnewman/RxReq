@@ -1,0 +1,4 @@
+2.0.1 - RC1 tested and rejected in test environment.
+2.0.2 - RC2 tested in live environment, withdrawn due to bugs.
+2.0.3 - RC3 released to live environment.
+2.0.4 - RC4 Autoupdater implemented.
