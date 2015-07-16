@@ -1,4 +1,2 @@
 rxreq.exe
 rxreq.exe
-testdoc.txt
-update-data\testdoc2.txt
