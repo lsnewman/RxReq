@@ -1,10 +1,23 @@
-2.0.1 - (RC1) 
-      - Tested and rejected in test environment.
-2.0.2 - (RC2) 
-      - Tested in live environment, withdrawn due to bugs.
-2.0.3 - (RC3) 
-      - Released to live environment.
 2.0.4 - (RC4) 
       - Autoupdater implemented.
       - Bugs fixed: view all scripts, marking as sent (emailing), PBS autoupdates (unzipping)
       - New features: edit date of scripts and directions (temporary changes until next search), search for marked owings (dispense with "//" in directions).
+3.0.0 - (Alpha) [iRxReq]
+      - iPharmacy version. This version no longer supports FRED. DO NOT UPDATE IF YOU STILL USE FRED AS YOUR MAIN DISPENSE. Update will prevent use of this software.
+      - DO NOT SELF UPGRADE - this upgrade requires several new files to be manually installed.
+      - All previous scripts from the FRED version will no longer exist. Doctors can be converted to the new system with help from Luke in Launceston HPS. DO NOT UPGRADE UNTIL THIS IS DONE.
+3.0.1 - (RC1)
+      - Fixed bug which prevented import of any new scripts.
+      - Fixed bug causing emails to fail to send and mark as sent.
+      - Script requests can now be emailed in bulk! Now when in the Script View screen, clicking email script will email each doctor (who has the setting switched on) their requests.
+      - Doctors can now be marked with the frequency Never, which will exclude them from normal reports (unless you untick weekly and fortnightly).
+      - Windows now will correctly come to the foreground when you close the child window.
+      - Updater made compatible with iRxReq.
+      - Several reports added/altered:
+         * You can now run a report for Medical Records
+         * You can now run a simple report for easier finding of scripts
+         * You can now select whether you want a letter with the report at the time of printing rather than searching
+      - Doctors names now shouldn't get cut off (up to a maximum of 50 characters)
+      - You can still find specially marked owings with this version. Dispense with "//" in the directions as usual. The button has moved down the the bottom of the report window.
+      - New setting Store Code added.
+         *If you get an error starting up RxReq, press ignore and go to the settings tab and enter your Store Code (the code that prefixes URs for non-hospital patients, e.g. LA)
