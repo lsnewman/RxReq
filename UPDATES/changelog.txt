@@ -21,3 +21,8 @@
       - You can still find specially marked owings with this version. Dispense with "//" in the directions as usual. The button has moved down the the bottom of the report window.
       - New setting Store Code added.
          *If you get an error starting up RxReq, press ignore and go to the settings tab and enter your Store Code (the code that prefixes URs for non-hospital patients, e.g. LA)
+3.0.2 - (RC2)
+      - Fixed bug which caused errors when closing windows
+3.0.3 - (RC3)
+      - Partially fixed bug which caused error on printing some reports. Can still press "ignore" to print reports with no consequences. To investigate further.
+      - Fixed bug which caused users to be prompted to overwrite old note when changing the note box in the reporting screen.
