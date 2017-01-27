@@ -26,3 +26,19 @@
 3.0.3 - (RC3)
       - Partially fixed bug which caused error on printing some reports. Can still press "ignore" to print reports with no consequences. To investigate further.
       - Fixed bug which caused users to be prompted to overwrite old note when changing the note box in the reporting screen.
+3.1.X - [iRxReq v1.X]
+      - Print onto PBS stationary
+      - Calculated authority numbers
+3.2.0 - [iRxReq v2.0]
+      - Various bug fixes
+      - Names now should come out correctly. No more incorrect surnames and first names. May still have issues with Double Barrell surnames (e.g. "Van Winden" etc). These have to be programmed as a known pattern.
+      - User login is now implemented.
+          * Non-admin users will not need to use a password
+          * Admin users will need to create a password the first time they are activated
+          * The first user to run this version will be assigned as admin
+          * Now only admins can wipe the database files
+          * More features linked to user accounts will be released in the future (e.g. send logs will have the user who was logged in)
+      - Import time is now SIGNIFICANTLY quicker, and now should be almost instantaneous (depending on the database size)
+      - PBS scripts should now print for doctors who have the email setting on (they will also be emailed in the next version).
+      - Authority scripts without a streamline now will leave the date blank on PBS scripts, so the doctor can fill it out
+      - No more funny symbols in drug names and medication directions!

@@ -1,2 +1,4 @@
 rxreq.exe
 rxreq.exe
+blank-profile.png
+PICS\blank-profile.png
