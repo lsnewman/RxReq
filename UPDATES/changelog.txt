@@ -57,3 +57,7 @@
           * You can manually change the category of the script
           * S8s and S11s currently print with "handwritten" prompts. Will investigate whether to remove for S4D/S11 scripts.
       - Removed some unnecessary parts of NON-Authority scripts on the PBS stationary. Further cleaning of this form to follow in future versions
+      - Login system is extended.
+          * Admins must now enter a password to delete data from the databases. In the next version they will also have to enter a password to add another admin.
+          * The user who sent a request is now logged in the "Audit Log" in the script view screen.
+          * Non-admins can no longer edit store settings.
