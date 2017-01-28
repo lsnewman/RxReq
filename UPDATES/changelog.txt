@@ -42,3 +42,18 @@
       - PBS scripts should now print for doctors who have the email setting on (they will also be emailed in the next version).
       - Authority scripts without a streamline now will leave the date blank on PBS scripts, so the doctor can fill it out
       - No more funny symbols in drug names and medication directions!
+3.2.1 - [iRxReq v2.1]
+      - Several bug fixes
+      - UR numbers now print on PBS scripts
+      - Doctors can now opt-in to print onto PBS stationary by default.
+          * Opted in doctors will no longer print out the summary. Notes associated with the script will be printed on the PBS script on the "Doctor Copy" section.
+          * iRxReq will warn you how many pages per doctor you need to get ready when printing
+          * Doctors who are emailed their reports will receive a copy of the PBS script automatically along with the normal summart
+      - Authority status is now shown within the script edit screen. You can remove the authority status from a script which will delete the streamline and "authority note" on the summary.
+      - You can now remove the "PBS-Status" of a script to make the item "NON-PBS".
+          * This causes the PBS code of the drug to be forgotten. If you wish to revert to PBS again you will need to supply the relevant PBS code.
+      - S8 and S4D/S11 scripts are now automatically marked as such when the script is viewed for the first time.
+          * This implementation is not perfect and may miss some medications, and mark some when they should not.
+          * You can manually change the category of the script
+          * S8s and S11s currently print with "handwritten" prompts. Will investigate whether to remove for S4D/S11 scripts.
+      - Removed some unnecessary parts of NON-Authority scripts on the PBS stationary. Further cleaning of this form to follow in future versions

@@ -2,3 +2,7 @@ rxreq.exe
 rxreq.exe
 blank-profile.png
 PICS\blank-profile.png
+S8.txt
+S8.txt
+S11.txt
+S11.txt
