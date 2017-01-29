@@ -61,3 +61,12 @@
           * Admins must now enter a password to delete data from the databases.
           * The user who sent a request is now logged in the "Audit Log" in the script view screen.
           * Non-admins can no longer edit store settings.
+3.2.2 - [iRxReq v2.2]
+      - Various bug fixes
+          * Fixed an exploit where users could mark themselves as an admin using an external database editor.
+      - You can now mark a prescription as owing or not owing when editing in the Script View screen
+          * This can be useful as an alternative to the "excluding" tag already available, however it will be overwritten on the next import from iPharmacy
+      - Patient encryption added
+          * Existing patients will no longer be able to be viewed. There is now way to fix this as it is an overhaul on the way patients are stored in the database
+          * Existing patients who have owing script will be updated to the new format on the next import. This should fix all owing scripts.
+          * Patient names, addresses and medicare numbers are now encrypted
