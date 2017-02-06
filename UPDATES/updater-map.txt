@@ -8,8 +8,8 @@ S11.txt
 S11.txt
 vfpencryption71.fll
 vfpencryption71.fll
-letter.html
-letter.html
+lettertemp.html
+lettertemp.html
 toolbar\Copy.gif
 PICS\toolbar\Copy.gif
 toolbar\Cut.gif
