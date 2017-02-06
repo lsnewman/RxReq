@@ -8,3 +8,25 @@ S11.txt
 S11.txt
 vfpencryption71.fll
 vfpencryption71.fll
+letter.html
+letter.html
+toolbar\Copy.gif
+PICS\toolbar\Copy.gif
+toolbar\Cut.gif
+PICS\toolbar\Cut.gif
+toolbar\Delete.gif
+PICS\toolbar\Delete.gif
+toolbar\Paste.gif
+PICS\toolbar\Paste.gif
+toolbar\Print.gif
+PICS\toolbar\Print.gif
+toolbar\Redo.gif
+PICS\toolbar\Redo.gif
+toolbar\Save.gif
+PICS\toolbar\Save.gif
+toolbar\Search.gif
+PICS\toolbar\Search.gif
+toolbar\Text preview.gif
+PICS\toolbar\Text preview.gif
+toolbar\Undo.gif
+PICS\toolbar\Undo.gif

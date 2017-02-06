@@ -70,3 +70,13 @@
           * Existing patients will no longer be able to be viewed. There is now way to fix this as it is an overhaul on the way patients are stored in the database
           * Existing patients who have owing script will be updated to the new format on the next import. This should fix all owing scripts.
           * Patient names, addresses and medicare numbers are now encrypted
+3.2.3 - [iRxReq v2.3]
+      - Various bug fixes
+          * Hopefully fixed patient address showing ">" symbols
+      - You can now edit the text that is shown at the top of the prescription request summary
+          * Admin accounts can edit this from the settings screen. Limited formatting options are available.
+          * The pharmacy name can be displayed with "<STORE>" while the hospital name can be displayed with "<CLIENT>".
+      - The hospital name should now print dynamically in the report. This can be added to a custom letter using the placeholder "<CLIENT>".
+      - You can now set a start date (or "go-live" date) for your site. This is available to admin users in the settings tab. Reports will not search information older than this
+          * This is useful for sites that have scripts in iPharmacy from before the go-live date (e.g. another site looks after the scripts before that date and they should be excluded).
+      
