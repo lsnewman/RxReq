@@ -1,3 +1,3 @@
 # RxReq
 
-RxReq is a prescription request program that integrated with FRED dispense. It is under development by a sole developer for initial use in a single pharmacy (but built with the scope to be used at any iPharmacy dispense hospital).
+RxReq is a prescription request program that can run reports based on a business specific report exported from iPharmacy. Able to be used at any of the business's sites if their reports are structured similarly.
